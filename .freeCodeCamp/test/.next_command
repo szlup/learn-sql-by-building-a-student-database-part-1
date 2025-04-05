@@ -128,3 +128,5 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 touch insert_data.sh
 chmod +x insert_data.sh
+bash insert_data.sh
+./insert_data.sh

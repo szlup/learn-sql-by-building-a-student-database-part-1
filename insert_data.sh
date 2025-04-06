@@ -19,6 +19,7 @@ do
       if [[ $INSERT_MAJOR_RESULT == "INSERT 0 1" ]]
       then
         echo "Inserted into majors, $MAJOR"
+        
       fi
 
       # get new major_id

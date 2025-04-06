@@ -53,6 +53,7 @@ do
     then
         echo "Inserted into majors_courses, $MAJOR : $COURSE"
     fi
+    
   fi
 
 

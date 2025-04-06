@@ -42,8 +42,8 @@ do
 
       fi
 
-
         # get new course_id
+        COURSE_ID=$($PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
 
       fi
     

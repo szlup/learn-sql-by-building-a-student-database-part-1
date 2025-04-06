@@ -212,3 +212,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./courses_test.csv
 ./insert_data.sh
 ./insert_data.sh
+./insert_data.sh

@@ -67,7 +67,13 @@ do
     echo $MAJOR_ID
 
     #if not found
-    #set to null
+    if [[  -z $MAJOR_ID ]]
+    then
+      #set to null
+
+
+    fi
+
     #insert student
   fi
 
